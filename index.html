@@ -1,0 +1,47 @@
+<!Doctype html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport"content="width=device-width,initial-scale=1.0"/>
+    <tittle>My Portfolio</tittle>
+    <meta name="description"content="ICT student building web,backend and security projects."/>
+    <link rel="stylesheet"href="style.css">
+    </head>
+    <body>
+    <!--Nav-->
+    <header class="site-header">
+        <nav class="nav-container">
+            <a href="index.html"class="nav--logo">Edwin</a>
+            <button class="nav--toggle"id="navToggle"aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav--links"id="navlinks">
+                <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+<main>
+    <!--HERO-->
+    <section class="hero container">
+        <p id="greeting"></p>
+        <p class="hero--eyebrow">Hi, I'm</p>
+        <h1 class="hero-name">Edwin</h1>
+        <p class="hero--tagline">ICT student building things at the edge of web development<br>
+        and security</p>
+        <div class="hero--actions">
+            <a href="projects.html"class="btn btn--primary">see my projects</a>
+            <a href="contact.html"class="btn btn--ghost">Get in touch</a>
+        </div>
+    </section>
+</main>
+<footer class="site-footer">
+    <p>&copy; <span id="year"></span> Edwin.Built from scratch</p>
+</footer>
+<script src="script.js"></script>
+</body>
+    </html>
